@@ -1,0 +1,129 @@
+*{
+    margin: 0 auto;
+}
+div.container{/*I want to make an image border next time*/
+    border-left: 20px solid #4b3024;
+    border-right: 20px solid #4b3024;
+}
+h1,h2,h3{
+    font-weight: normal;
+    font-family: 'Italiana';
+    color: #352319;
+}
+p{
+    width: 70%;
+    text-align: center;
+    font-family: 'Arsenal';
+    font-size: large;
+    color: #483528;
+}
+div.title{
+    padding: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+header{
+    width: 100%;
+    background-color: #9c7c4896;
+}
+img.hero{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-color: #4b30247e;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 0;
+    text-align: center;
+}
+li{
+    width: 90%;
+    display: inline-block;
+    margin: 1% 1%;
+    justify-content: space-evenly;
+    line-height: 2em;
+    flex-grow: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+li:hover{
+    background: #4b3024;
+}
+li:hover>a{
+    color: #A69993;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Arsenal';
+    color: #4b3024;
+}
+main{
+    padding: 2% 0;
+    text-align: center;
+    background-color: #9c7c4899;
+}
+main img,main h3{
+    width: 75%;
+    justify-items: center;
+    text-align: center;
+}
+aside{
+    background-color: #9c7c4899;
+    padding: 1% 2% 1% 2%;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+}
+aside img{
+    width: 90%;
+    display: flex;
+    justify-items: center;
+}
+aside h3{
+    padding: 1%;
+}
+footer{
+    background-color: #4b30247e;
+}
+
+.arsenal-regular {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .arsenal-regular-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
